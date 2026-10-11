@@ -1,0 +1,44 @@
+{
+  "labels": [
+    "len",
+    "xuong",
+    "trai",
+    "phai",
+    "khien",
+    "luot",
+    "_silence_",
+    "_unknown_"
+  ],
+  "commandLabels": [
+    "len",
+    "xuong",
+    "trai",
+    "phai",
+    "khien",
+    "luot"
+  ],
+  "features": {
+    "sampleRate": 16000,
+    "clipSamples": 16000,
+    "nFft": 512,
+    "winLength": 400,
+    "hopLength": 160,
+    "nMels": 40,
+    "fMin": 20.0,
+    "fMax": 7600.0,
+    "nFrames": 101,
+    "logEpsilon": 1e-06
+  },
+  "runtime": {
+    "threshold": 0.8,
+    "smoothing": 1,
+    "hop": 0.2,
+    "vadRms": 0.012,
+    "refractory": 0.3
+  },
+  "checkpoint": {
+    "name": "final",
+    "model": "dscnn",
+    "valAcc": 0.9523121387283237
+  }
+}
