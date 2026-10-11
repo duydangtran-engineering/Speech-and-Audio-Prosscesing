@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+data/raw/**/*.wav
+data/noise/
+data/processed/
+models/*.pt
+web/vendor/
+.env
